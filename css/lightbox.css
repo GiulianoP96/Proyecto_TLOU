@@ -1,0 +1,36 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery a {
+    margin: 10px;
+  }
+  
+  .gallery img {
+    max-width: 200px;
+    height: auto;
+  }
+  
+  #lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #lightbox img {
+    max-width: 90%;
+    max-height: 90%;
+  }
+  
+  #lightbox.active {
+    display: flex;
+  }
+  

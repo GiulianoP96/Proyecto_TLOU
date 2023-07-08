@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>The Last Of Us</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="index.html"><img src="images/Optimizated/The Last Of Us logo.jpg" alt="Logo The Last Of Us"></a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        <nav id="menu_bar" class="">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="personajes">Personajes</a></li>
+                    <ul>
+                        <li><a href="joel.html">Joel</li>
+                        <li><a href="ellie.html">Ellie</li>
+                        <li><a href="tommy.html">Tommy</li>
+                    </ul>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="criticas.html">Críticas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+	</header>
+
+    <h1 class="h1_contacto">Aqui puedes contactarte conmigo!</h1>
+
+    <div class="form_div">
+      <form action="procesar_formulario.php" method="POST">
+        <div class="form_nombre">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" class="form_input" required>
+        </div>
+
+        <div class="form_email">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" class="form_input" required>
+        </div>
+
+        <div class="form_mensaje">
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" class="form_input" required></textarea>
+        </div>
+
+        <input type="submit" value="Enviar">
+      </form>
+    </div>
+
+    <footer>
+      <div class="borde">
+        <a href="https://www.instagram.com/giulipotenzoni/"><img id="instagram" src="images/Optimizated/Instagram_Logo.jpg" alt="Instagram Logo"></a>
+        <a href="https://twitter.com/GiuliPotenzoni_"><img id="twitter" src="images/Optimizated/Twitter_Logo.jpg" alt="Twitter Logo"></a>
+      </div>
+      
+      <div class="texto_footer">
+        <p>Hecho por Giuliano Potenzoni</p>
+      </div>
+    </footer>
+      <script src="js/hamburguesa.js"></script>
+  </body>
+  </html>
