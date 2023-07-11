@@ -1,2 +1,3 @@
 Links:
-https://giulianop96.github.io/ProyectoLabIII_TLOU/
+https://github.com/GiulianoP96/Proyecto_TLOU.git
+git@github.com:GiulianoP96/Proyecto_TLOU.git

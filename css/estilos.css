@@ -121,7 +121,7 @@ h4{
 .h1_contacto{
     display: flex;
     justify-content: center;
-    font-size: 70px;
+    font-size: 50px;
     margin-top: 2%;
     color: #ffffff;
 }
@@ -175,7 +175,7 @@ h4{
 }
 
 .marco_joel{
-	width: 1200px;
+	width: 600px;
 	height: 625px;
 	background-color: burlywood;
 	border-radius: 10px;
@@ -185,8 +185,18 @@ h4{
 	background-color: burlywood;
 }
 
+#izquierda {
+	float: left;
+	margin-right: 20px;
+  }
+  
+  #derecha {
+	overflow: hidden;
+  }
+
+
 .marco_ellie{
-	width: 1200px;
+	width: 600px;
 	height: 625px;
 	background-color: burlywood;
 	border-radius: 10px;
@@ -197,7 +207,7 @@ h4{
 }
 
 .marco_tommy{
-	width: 1200px;
+	width: 600px;
 	height: 625px;
 	background-color: burlywood;
 	border-radius: 10px;
@@ -217,7 +227,7 @@ h4{
 }
 
 .marco_critica{
-	width: 60%;
+	width: 99.9%;
 	background-color: burlywood;
 	border-radius: 8px;
 	border: 3px;
@@ -317,8 +327,27 @@ section{
 	margin-right: auto;
 }
 .principal{
-	height: 250px;
-	padding: 10%;
+	height: 90%;
+	padding: 3%;
+}
+
+.principal h2{
+	margin-top: 2%;
+}
+
+.linea img{
+	width: 90%;
+	margin-left: 4%;
+	margin-top: 5%;
+}
+
+.titulo{
+	margin-top: 6%;
+	font-size: 35px;
+}
+
+.principal div img{
+	margin-left: 15%;
 }
 .secundario{
 	margin-top: 1%;
@@ -335,6 +364,7 @@ h2{
 }
 h4{
 	font-size: 1rem;
+	margin-bottom: 3%;
 }
 footer{
 	height: 80px;
@@ -347,5 +377,39 @@ footer img{
 article {
  	 margin-bottom: 10px;
   	margin:auto;
+}
+
+#izquierda {
+	float:none
+}
+
+#izquierda img{
+	display: flex;
+	margin-top: 5%;
+	margin-left: 10%;
+}
+
+.marco_joel, .marco_ellie, .marco_tommy{
+	width: 90%;
+	height: 100%;
+	margin-left: 5%;
+	margin-top: 5%;
+	padding: 2%;
+}
+
+.h1_critica{
+	font-size:40px;
+	margin-top:3%;
+	margin-bottom:3%;
+}
+
+.marco_critica{
+	width: 90%;
+	margin-left: 5%;
+}
+
+.marco_critica p{
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 }
